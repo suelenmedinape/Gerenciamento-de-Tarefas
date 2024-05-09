@@ -1,5 +1,5 @@
 # Manipulação da DOM
-O objetivo desse projeto é consolidar meu aprendizado recnete em manipulação da DOM, JSON e LocalStorage API.
+O objetivo desse projeto é consolidar meu aprendizado recente em manipulação da DOM, JSON e LocalStorage API.
 
 ### Sobre o site:
 O site tem o objetivo de cadastrar tarefas, onde o usuário pode escolher a cor dos cards das tarefas marcar como concluidas ou não concluidas, é possivel tambem arquivar as tarefas concluídas para ter um controle melhor delas.
