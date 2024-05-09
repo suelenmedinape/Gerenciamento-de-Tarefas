@@ -10,7 +10,7 @@ O site tem o objetivo de cadastrar tarefas, onde o usuário pode escolher a cor 
 
 > **Observação 2:** Só será possível excluir uma tarefa se a mesma estiver concluída e arquivada.
 
-Como foi utilizada a funcionalidade ```localStorage``` será possivel que quando o site for atualizado as tarefas adicionadas permanecerão salvas, tanto as tarefas arquivas quanto as tarefas que permanecem na pagina principal.
+Como foi utilizada a funcionalidade ```localStorage```  será possivel que quando o site for atualizado as tarefas adicionadas permanecerão salvas, tanto as tarefas arquivas quanto as tarefas que permanecem na pagina principal.
 
 ### Design do Site
 O design do site foi feito seguindo as especificações desse vídeo.
