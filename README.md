@@ -15,9 +15,21 @@ Como foi utilizada a funcionalidade ```localStorage``` será possivel que quando
 ### Design do Site
 O design do site foi feito seguindo as especificações desse vídeo.
 
-* [Modelo seguido para a produção do site](https://drive.google.com/file/d/1pzQP8-Puzjbv_xiwsVDjwdF3ondvd43U/preview)
+![Image and Preview Themes on the toolbar](public/assets/img_site.png)
 
-Essa vídeo mostra também como o site funciona.
+* [Veja como o site funciona](https://drive.google.com/file/d/1pzQP8-Puzjbv_xiwsVDjwdF3ondvd43U/preview)
+
+### Materiais de apoio.
+
+**MDN Web Docs**
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+**W3Schools**
+* [HTML](https://www.w3schools.com/html/default.asp)
+* [CSS](https://www.w3schools.com/css/default.asp)
+* [JavaScript](https://www.w3schools.com/js/default.asp)
 
 ---
 
