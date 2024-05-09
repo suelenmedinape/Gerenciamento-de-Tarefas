@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/* CABECALHO */
+.cabecalho {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.logo {
+    margin-right: 100px;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* AREA DA ADICAO DE TAREFAS */
+.container {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.container label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+
+#inputAdd {
+    width: 490px;
+    height: 40px;
+    border-color: #50b6ef;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+input[type='radio'] {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 0; 
+    position: relative;
+}
+
+input[type='radio']:checked {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.705);
+}
+
+#btn_add {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    height: 40px;
+    width: 145px;
+    border-radius: 7px;
+    background-color: #50b6ef;
+    border-color: #50b6ef;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+img#img-add-task {
+    height: 40px;
+    width: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+#btn-add-task {
+    background-color: transparent;
+    color: #009CFF;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#btn-add-task:before {
+    content: url('public/assets/task-add-icon.png');
+    margin-right: 8px;
+}
+
+.card2 {
+    width: 200px;
+    height: 35px;
+    margin-right: 20px;
+    background-color: #ffa4a3;
+}
+
+#tarefas-arquivadas {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os elementos se quebrem em várias linhas */
+    justify-content: flex-start; /* Alinha os elementos à esquerda */
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+    margin: 10px; /* Espaçamento entre os cards */
+}
+
+/*.card {
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+    display: inline-block; 
+    margin-right: 20px; 
+    margin-top: 50px;
+    margin-left: 50px;
+}*/
+
+.card2 {
+    display: flex; 
+    align-items: center; 
+}
+
+.checkBox {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px; 
+}
+
+.descricao-tarefa {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 5px;
+    overflow: auto;
+    /*barra de rolagem */
+    max-height: 120px;
+    word-wrap: break-word;
+    /*quebra para ajustar ao limite do card */
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+
+.lblEstado {
+    margin-top: 5px;
+    margin-left: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.card + .checkBox:checked{
+    background-color: #b8ff99;
+}
+
+/* Estilo para o checkbox selecionado */
+.checkBox:checked + .lblEstado {
+    color: #2b5a07; 
+    background-color: #b8ff99; 
+}
+
+/* Estilo para o checkbox não selecionado */
+.checkBox + .lblEstado {
+    color: #e42c28; 
+    background-color: #ffa4a3; 
+}
+
+/* Estilo para o card concluído */
+.concluida {
+    background-color: #b8ff99;
+}
+
+/* Estilo para o card não concluído */
+.nao-concluida {
+    background-color: #ffa4a3;
+}
+
+
+/* CSS DE TESTE */
+.hide-element {
+    display: none;
+}
+
+#opcao1:checked + .card{
+    background-color: #daf5fa;
+}
+
+.card-blue{ background-color: #daf5fa;}
+.card-green{background-color: #d1fecb;}
+.card-rosa{background-color: #f6d0f6;}
+.card-roxo{background-color: #dcd0f3;}
+.card-amarelo{background-color: #fcfccb;}
+.card-laranja{background-color: #fbd4b4;}
+.card-branco{background-color: #f2f5f7;}
+
+#btnExcluir {
+    background-color: transparent;
+    border: none;
+    margin-top: 132px; /* Reduza a margem superior conforme necessário */
+    margin-left: 160px; /* Reduza a margem esquerda conforme necessário */
+    position: absolute; /* Use position: absolute para posicioná-lo em relação ao seu contêiner pai */
+}
+
+.img_excluir {
+    width: 25px;
+    left: 0; /* Redefina a posição esquerda conforme necessário */
+    top: 0; /* Redefina a posição superior conforme necessário */
+}
+
+/* ARQUIVADAS */
+.checkmark-img {
+    width: 20px;
+    height: 20px; 
+    margin-top: 5px;
+    margin-left: 5px;
+}

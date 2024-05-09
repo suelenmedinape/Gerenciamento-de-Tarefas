@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./public/assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>Well Organized</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <a href="Index.html"><img src="public/assets/well-organized-logo.png" alt="logo" class="logo"></a>
+
+        <h4> <a href="Index.html"> A fazer</a></h4> <h4> | </h4><h4> <a href="arquivadas.html">Arquivadas </a></h4>
+    </header>
+
+    <section> 
+
+        <div id="formulario" class="container">
+            <a href="#" id="btn-add-task" class="add-task">
+              <img src="public/assets/task-add-icon.png" alt="icone do btn de add task" id="img-add-task"> 
+              <h2 id="h2-add-task">Adicionar Tarefa</h2>           
+            </a>
+            
+          </div>
+        <!-- <div id="formulario" class="container">
+            <img src="public/assets/task-add-icon.png" alt="icone do btn de add task" id="img-add-task"> <input type="button" id="btn-add-task" name="add-task" value="Adicionar Tarefa">
+        </div> -->
+
+        <div id="resultado">
+            <ul id="todo-tasks"></ul>
+        </div>
+    </section>
+
+    <script src="public/js/script.js"></script>
+</body>
+</html>
