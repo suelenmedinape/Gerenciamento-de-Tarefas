@@ -30,9 +30,3 @@ O design do site foi feito seguindo as especificações desse vídeo.
 * [HTML](https://www.w3schools.com/html/default.asp)
 * [CSS](https://www.w3schools.com/css/default.asp)
 * [JavaScript](https://www.w3schools.com/js/default.asp)
-
----
-
-**Suelen Medina**
-**-** 
-**Cursando Bacharelado em Sistemas de Informação**
